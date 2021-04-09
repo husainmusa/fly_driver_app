@@ -1,0 +1,118 @@
+@charset "UTF-8";
+/*
+  Authors : initappz (Rahul Jograna)
+  Website : https://initappz.com/
+  App Name : ionic 5 groceryee app
+  Created : 10-Sep-2020
+  This App Template Source code is licensed as per the
+  terms found in the Website https://initappz.com/license
+  Copyright and Good Faith Purchasers © 2020-present initappz.
+*/
+.quantity {
+  float: left;
+}
+
+.quantity > span {
+  float: right;
+  margin-left: 3px;
+}
+
+.acceptNotify {
+  color: red;
+}
+
+.segment_div {
+  display: flex;
+  margin-top: 20px;
+  border-bottom: 1px solid lightgray;
+  justify-content: space-around;
+}
+.segment_div ion-label {
+  color: gray;
+  padding-bottom: 10px;
+  width: 100%;
+  text-align: center;
+}
+.segment_div .active {
+  border-bottom: 1px solid var(--ion-color-primary);
+}
+
+.main_content_div {
+  width: 100%;
+  padding: 16px;
+  padding-bottom: 70px;
+}
+.main_content_div ion-label {
+  display: block;
+}
+.main_content_div .top_lbl {
+  font-size: 25px;
+  font-family: muli-bold;
+  margin-bottom: 10px;
+}
+.main_content_div .content_div {
+  padding: 10px 0px;
+}
+.main_content_div .content_div .card_container {
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 16px;
+}
+.main_content_div .content_div .card_div {
+  display: flex;
+  margin-bottom: 20px;
+}
+.main_content_div .content_div .card_div .image_div {
+  height: 95px;
+  width: 95px;
+  min-width: 95px;
+}
+.main_content_div .content_div .card_div .image_div img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.main_content_div .content_div .card_div .status {
+  position: absolute;
+  right: 0;
+  bottom: 0px;
+  padding: 5px;
+  background: var(--ion-color-primary);
+  border-bottom-right-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+.main_content_div .content_div .card_div .desc_div {
+  width: 100%;
+  padding-left: 10px;
+}
+.main_content_div .content_div .card_div .desc_div .border_bottom {
+  padding-bottom: 10px;
+  width: 100%;
+}
+.main_content_div .content_div .card_div .desc_div .border_bottom .items {
+  margin: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+  padding-bottom: 5px;
+  border-bottom: 0.5px dashed lightgray;
+  margin-bottom: 5px;
+}
+.main_content_div .content_div .card_div .desc_div .border_bottom .itemss {
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 12px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+.main_content_div .content_div .card_div .desc_div .datetime {
+  font-size: 12px;
+  font-weight: bold;
+}
