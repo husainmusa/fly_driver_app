@@ -409,7 +409,7 @@ export class OrderDetailsPage implements OnInit {
   }
 
   sendNotification(value) {
-    let sValue= value+"__ED" ;
+    let sValue= value+"__EDD" ;
     sValue =sValue.trim();
     if (this.userInfo && this.userInfo.fcm_token) {
       this.api.sendNotification(this.util.getString('Your order #') + this.id + ' ' + this.util.getString(sValue), this.util.getString('Order_ED')+' ' + this.util.getString(sValue), this.userInfo.fcm_token)
